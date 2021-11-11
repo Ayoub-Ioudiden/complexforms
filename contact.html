@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Let's play with the boxmodel</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <form name="contact" method="POST" data-netlify="true">
+
+        <p>
+            <label>Your Name:<input type="text" name="name"></label>
+        </p>
+
+        <p>
+            <label>Your Email:<input type="email" name="email"></label>
+        </p>
+
+        <p>
+            <label>Your Phonenumber:<input type="number" name="phonenumber"></label>
+        </p>
+
+        <p>
+            <label>Your Biography:<textarea name="textarea"></textarea></label>
+        </p>
+
+        <p>
+            <label>Your Age:<input type="number" name="age"></label>
+        </p>
+
+        <p>
+            <label>Your Birthday:<input type="date" name="birthday"></label>
+        </p>
+
+        <p>What is Your Gender ?</p>
+        <input type="radio" name="gender" value="male"> Male
+        <br>
+        <input type="radio" name="gender" value="female"> Female
+
+        <p>What are your Favorite Cuisines ?</p>
+        <input type="checkbox" name="cuisine" value="italian"> Italian
+        <br>
+        <input type="checkbox" name="cuisine" value="spanish"> Spanish
+        <br>
+        <input type="checkbox" name="cuisine" value="french"> French
+        <br>
+        <input type="checkbox" name="cuisine" value="arabic"> Arabic
+        <br>
+
+        <p>What is your favorite aproncolor? Use the colorpicker below !</p>
+        <input type="color" name="color">
+        <br>
+
+        <br>
+        <label>Upload your latest recipe<input type="file" name="file"></label>
+        <br>
+
+        <br>
+        <label>Paste the URL to the website here:<input type="url" name="url"></label>
+        <br>
+
+        <br>
+        <button type="reset">Clear fields</button>
+        <br>
+
+        <br>
+        <button type="submit">Send</button>
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
